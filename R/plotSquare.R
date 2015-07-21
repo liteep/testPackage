@@ -1,21 +1,22 @@
-#' Plot a circle of radius r.
+#' Plot a square of side length r.
 #'
 #' Normally, we would now describe what
 #' the function is supposed to do
 #'
-#' @param r The radius of the circle to
+#' @param r The side length of the square to
 #'   be plotted
 #'
 #' @return None The function is called
 #'   solely for its side effect
 #' @examples
-#' plotCircle(5)
+#' plotSquare(5)
 #'
 #' @seealso The general
 #'   \code{\link[graphics]{plot}} function
 #'
 #' @export
-plotCircle <- function(r=1){
+plotSquare <- function(r=1){
+  #not actually a square!!
   myAngles <- seq(from=0, to=2*pi,length.out=200)
   x <- cos(myAngles)
   y <- sin(myAngles)
