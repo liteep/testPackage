@@ -2,3 +2,4 @@
 
 export(plotCircle)
 export(plotSquare)
+export(plotSquareRed)
