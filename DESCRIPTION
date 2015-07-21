@@ -1,0 +1,12 @@
+Package: testPackage
+Type: Package
+Title: Illustrates a simple R package
+Version: 1.0
+Date: 2015-07-18
+Author: Ashley Petersen
+Maintainer: Ashley Petersen <ajpete@uw.edu>
+Description: Nothing at all.
+License: MIT + file LICENSE
+Suggests: MASS,
+    knitr
+VignetteBuilder: knitr
