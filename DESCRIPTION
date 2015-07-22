@@ -10,3 +10,5 @@ License: MIT + file LICENSE
 Suggests: MASS,
     knitr
 VignetteBuilder: knitr
+
+jess new line
